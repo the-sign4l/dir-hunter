@@ -46,7 +46,7 @@ output = Listbox(bg = "white" , width = 72 , fg = "green")
 output.place(x = 50 , y = 140)
 
 
-photo = PhotoImage(file = r"img/sign4l.png") 
+photo = PhotoImage(file = r"sign4l.png") 
 photoimage = photo.subsample(3, 3) 
 
 Button(root, image = photoimage).place(x = 80 , y = 400)
