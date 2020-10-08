@@ -3,8 +3,6 @@ from tkinter import *
 from tkinter import messagebox
 from urllib2 import Request , urlopen ,HTTPError , URLError
 from tkinter import ttk
-from tkinter.filedialog import asksaveasfile
-
 
 root = Tk()
 root.geometry("900x650")
